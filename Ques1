@@ -1,1 +1,19 @@
-int a ab
+package Assign1;
+
+public class Assign {
+    public static void main(String[] args) {
+
+
+        float A = 9.5f;
+        float B = 2.3f;
+        float sum = A + B;
+
+
+        System.out.println("The Sum of two number is :" + sum);
+
+
+    }
+
+
+
+}
