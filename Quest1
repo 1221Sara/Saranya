@@ -4,12 +4,12 @@ public class Assign {
     public static void main(String[] args) {
 
 
-        float A = 9.5f;
-        float B = 2.3f;
+        float A = 8.6f;
+        float B = 9.7f;
         float sum = A + B;
 
 
-        System.out.println("The Sum of two number is :" + sum);
+        System.out.println("The addition of two number is :" + sum);
 
 
     }
