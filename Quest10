@@ -1,0 +1,55 @@
+main-class
+-------
+
+package JavaAssign;
+
+public class Access_Private_data {
+
+    public void P_data(){
+        System.out.println("I have 2 childern");
+    }
+
+    public void Sh_Dtaa(){
+
+        System.out.println("They loks smart");
+    }
+
+
+    }
+
+
+
+--------------------
+R_Data_class
+package JavaAssign;
+
+public class R_Data extends Access_Private_data {
+
+
+    public static void main(String args[]) throws Exception {
+
+
+        R_data Sh_obj = new R_Data();
+        Sh_obj.R_data();
+
+
+    }
+}
+
+-------------------
+
+P_data
+
+
+package Assign1;
+
+public class P_Data extends Access_Private_data {
+    public static void main(String args[]) throws Exception {
+
+
+        P_data Hide_obj = new P_data();
+       Hide_obj.P_Data();
+
+
+    }
+}
