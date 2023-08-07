@@ -4,7 +4,7 @@ Feature: Create Pet
 
 Scenario: Create a new pet
     # Define the request payload
-    * def payload = { "id": 100, "name": "Doggie", "status": "available" }
+    * def payload = { "id": 100, "name": "Reindeer", "status": "available" }
 
     # Send the POST request
     Given url 'https://petstore.swagger.io/v2/pet'
